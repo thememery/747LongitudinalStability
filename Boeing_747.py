@@ -4,7 +4,7 @@ import numpy as np
 import sympy as sym
 import control
 
-#%matplotlib inline
+%matplotlib inline
 
 from numpy.linalg import eig
 from scipy import signal as sig
