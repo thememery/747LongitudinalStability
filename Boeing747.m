@@ -74,3 +74,6 @@ hold off
 
 figure('Name','root locus')
 rlocus(TF)
+
+figure('Name','open-loop response')
+step(TF)
