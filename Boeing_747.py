@@ -90,8 +90,8 @@ r2i = np.imag(r2)
 # Plotting
 
 
-plt.plot([r1r[0],r1r[1]],[r1i[0],r1i[1]], label="phugoid")
-plt.plot([r2r[0],r2r[1]],[r2i[0],r2i[1]], label="short-period")
+plt.scatter([r1r[0],r1r[1]],[r1i[0],r1i[1]], label="phugoid")
+plt.scatter([r2r[0],r2r[1]],[r2i[0],r2i[1]], label="short-period")
 plt.grid()
 plt.xlabel('real-axis')
 plt.ylabel('imaginary-axis')
